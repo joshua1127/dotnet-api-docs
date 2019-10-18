@@ -161,5 +161,9 @@
     <namespaceFilter name="Microsoft.Extensions.Logging.Internal">
       <typeFilter name="*" expose="false" />
     </namespaceFilter>
+    <namespaceFilter name="System.Web.DynamicData">
+      <typeFilter name="IMetaTable" expose="false" />
+      <typeFilter name="*" expose="true" />
+    </namespaceFilter>
   </apiFilter>
 </filter>
